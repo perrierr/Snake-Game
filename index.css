@@ -40,9 +40,25 @@ html, body {
     margin-right: auto;
     z-index: -100;/*it means it is behind everything*/
     background-size: cover;/*it will stretch*/
-    margin-bottom: 36%;
+    margin-bottom: 15%;
     /*filter: grayscale(1);
     opacity: 0.25;*/
+}
+
+.footer {
+    display: flex;
+  }
+
+.footer-item {
+    display:flex;
+    color: #052135;
+    text-align: center;
+    justify-content: center;
+    width: 100%;
+    height: 2em; 
+    margin-top: 50px;
+    background: #89a2b1;
+    
 }
 
 
